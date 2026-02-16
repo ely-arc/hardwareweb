@@ -1,0 +1,88 @@
+/*
+/*
+    NAME: SEVIDAL, JELSY F.
+    FILE NAME: login.css
+    DATE FINISHED: 04-8-2025
+    PURPOSE: css design for the login and registering acc. Also the design background image of the feed user. 
+*/
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('bghardware.png');
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.background {
+  display: none; 
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  width: 320px;
+  text-align: center;
+  border: 2px solid #388e3c; 
+}
+
+h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #c5e1a5; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+form button {
+  background-color: #2e7d32; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #1b5e20; 
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+a {
+  color: #1b5e20; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

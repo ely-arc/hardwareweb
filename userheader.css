@@ -1,0 +1,62 @@
+/*
+    NAME: SEVIDAL, JELSY F.
+    FILE NAME: userheader.php
+    DATE FINISHED: 04-11-2025
+    PURPOSE: CSS design in admin page header. 
+*/
+
+nav, p {
+  background-color: #27ae60; 
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #eafaf1;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(46, 204, 113, 0.6); /* Glowing green hover */
+}
+
+h1 {
+  background-color: #229954; /* Deep leafy green */
+  color: white;
+  text-align: center;
+  padding: 20px 0 10px;
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn-container {
+  position: fixed; /* Sticks the button in place */
+  right: 20px; /* Distance from the right edge of the page */
+  top: 20px;   /* Distance from the top edge of the page */
+  z-index: 1000; /* Ensures the button is above other elements */
+}
+        
+.logout-btn {
+  background-color: #ff4d4d; /* Red background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the button */
+  border: none; /* Removes the border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Cursor changes to a pointer when hovered */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.logout-btn:hover {
+   background-color: #e03e3e; /* Darker red when hovered */
+}
+
